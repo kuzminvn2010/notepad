@@ -23,7 +23,6 @@ end
 input = Post.create(user_choice)
 
 input.read_from_console
-input.to_strings
 file_path = current_path + "/result_program/" + input.file_name
 input.save(file_path)
 
